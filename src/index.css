@@ -84,9 +84,10 @@ ul {
   background-repeat: no-repeat;
   background-position: center 90%;
   float: left;
+  width: 25%;
+  height: 250px;
   margin: 2%;
   padding: 1%;
-  outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
 }
@@ -149,4 +150,14 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+.divTil {
+    text-align: center;
+    padding: 10px 20px;
+  
+}
+
+.imgTil {
+  width: 50%;
 }
